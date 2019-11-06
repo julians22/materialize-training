@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Big+Shoulders+Display:700,800|Comfortaa:500,600|Faster+One&display=swap');
+
+a.brand-logo{
+    font-family: 'Faster One', cursive;
+    text-shadow: 4px 4px 4px rgb(9, 83, 39);
+}
+
+ul, li, a, h3{
+    font-family: 'Big Shoulders Display', cursive;
+}
+
+p, h5{
+    font-family: 'Comfartaa', cursive;
+}
+
+.slider h3,
+.slider h5,
+.clients h3 {
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 5);
+}
+
+.parallax-container{
+    height: 20%;
+}
+
+.parallax img {
+    filter: grayscale(1);
+    opacity: 0.5 !important;
+}
+
+.clients img {
+    max-width: 230px;
+    filter: drop-shadow(1px, 1px, 1px rgba(0,0,0,0.8));
+}
+
+section{
+    padding: 20px 0;
+}
